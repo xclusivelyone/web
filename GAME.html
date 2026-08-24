@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch The Burger</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="burgergame">
+    <div class="section-head">
+      <span class="tag">11</span>
+      <h2>Catch The Burger!</h2>
+    </div>
+    <div class="game-card">
+      <div class="game-hud">
+        <div class="game-score">Score: <span id="burgerScore">0</span></div>
+        <div class="game-lives">Lives: <span id="burgerLives">3</span></div>
+        <button class="game-btn" id="burgerStartBtn">Start Game</button>
+      </div>
+      <div class="game-stage" id="burgerStage">
+        <div class="game-basket" id="burgerBasket">🧺</div>
+        <div class="game-overlay" id="burgerOverlay">
+          <p>Press <strong>Start Game</strong> and move your mouse or finger to catch the burgers!</p>
+        </div>
+      </div>
+      <a href="index.html#burger-teaser" class="game-back">Back to Main Page</a>
+    </div>
+</section>
+<script src="GAME.js"></script>
+</body>
+</html>
