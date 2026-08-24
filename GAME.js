@@ -102,9 +102,9 @@
         overlay.classList.remove('hidden');
 
         overlay.innerHTML =
-            '<p>Game over! Skor akhir kamu: <strong>' +
+            '<p>Game over! Your final score: <strong>' +
             score +
-            '</strong><br>Tekan Start Game buat main lagi.</p>';
+            '</strong><br>Press start game to play again.</p>';
     }
 
     function loop() {
