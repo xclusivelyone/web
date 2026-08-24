@@ -28,7 +28,9 @@
     color: var(--brown);
     font-family: var(--font-body);
     line-height: 1.65;
+    color-scheme: light;
   }
+  
   a{ color: inherit; }
   img{ max-width: 100%; display: block; }
 
@@ -341,7 +343,6 @@
     font-family: var(--font-display);
     font-size: 1.2rem;
     color: var(--brown);
-    text-shadow: 2px 2px 0 var(--cream-2);
   }
 
   .org-grid{
@@ -854,4 +855,8 @@
   margin-top: 100px;
   bottom: 10px;
   text-align: center;
+}
+
+html{
+    color-scheme: light;
 }
